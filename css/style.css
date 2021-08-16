@@ -5,17 +5,17 @@
 }
 
 body {
-    border: 1px solid red;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif
 }
 
 .container {
-    width: 320px;
-    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 500px;
+    height: 500px;
     background: #fff;
-    padding: 1rem;
+    padding: 1.5rem;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -28,6 +28,8 @@ body {
     color: #0A66C3;
     font-size: 1.6rem;
     padding-left: .1rem;
+    position: relative;
+    bottom: 80px;
 }
 
 .intro-text p {
@@ -39,7 +41,8 @@ body {
     position: relative;
     width: 100%;
     height: 50px;
-    margin-bottom: .7rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .input input {
@@ -50,6 +53,7 @@ body {
     outline: none;
     border: 1px solid #8c8c8c;
     border-radius: 3px;
+    font-size: 18px;
     transition: .2s;
 }
 
@@ -83,6 +87,7 @@ body {
     color: #0A66C3;
     transition: .3s;
     border-radius: 12px;
+    margin-bottom: 2rem;
 }
 
 .forgot-pass-link:hover {
@@ -98,6 +103,14 @@ button {
     color: #fff;
     font-size: 1rem;
     font-weight: bolder;
+    width: 85%;
+    margin: 0 auto;
+}
+
+button+p {
+    margin-top: 20px;
+    position: relative;
+    top: 80px;
 }
 
 .join-link {
@@ -108,4 +121,5 @@ button {
     text-decoration: none;
     font-weight: bolder;
     color: #0A66C3;
+    padding-left: 10px;
 }
