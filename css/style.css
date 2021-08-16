@@ -76,5 +76,36 @@ body {
 
 .forgot-pass-link {
     width: 140px;
-    padding: .2rem
+    padding: .2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0A66C3;
+    transition: .3s;
+    border-radius: 12px;
+}
+
+.forgot-pass-link:hover {
+    background: rgba(10, 102, 195, .3)
+}
+
+button {
+    height: 50px;
+    background: #0A66C3;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.join-link {
+    text-align: center;
+}
+
+.join-link a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0A66C3;
 }
