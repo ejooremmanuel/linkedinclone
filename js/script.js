@@ -8,10 +8,10 @@ show.addEventListener('click', () => {
     if (password.type === "password") {
 
         password.type = "text"
-        show.innerHTML = "hide"
+        show.innerHTML = "visibility_off"
     } else {
         password.type = "password"
-        show.innerHTML = "show"
+        show.innerHTML = "visibility"
 
     }
 
