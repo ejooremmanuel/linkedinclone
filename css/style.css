@@ -59,15 +59,14 @@ body {
 
 .input label {
     position: absolute;
-    top: 30%;
+    /* top: 19%; */
     left: 10px;
     font-size: 1.1rem;
     color: #8c8c8c;
     transition: .2s;
 }
 
-.input input:focus~label,
-.input input:valid~label {
+.input input:focus~label {
     top: 10%;
     font-size: .8rem;
     color: #000000;
@@ -88,6 +87,19 @@ body {
     transition: .3s;
     border-radius: 12px;
     margin-bottom: 2rem;
+}
+
+#show {
+    position: absolute;
+    right: 30px;
+    top: 24%;
+    cursor: pointer;
+    width: 50px;
+}
+
+#show:hover {
+    background: rgba(10, 102, 195, .3);
+    border-radius: 12px;
 }
 
 .forgot-pass-link:hover {
